@@ -1,5 +1,5 @@
 .idea
-
+src/commands/fetch_api.js
 # Logs
 logs
 *.log
@@ -109,3 +109,4 @@ dist
 
 # Used for Snyk Security 
 .dccache
+.env
