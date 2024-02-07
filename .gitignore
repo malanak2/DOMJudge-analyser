@@ -1,3 +1,5 @@
+.idea
+
 # Logs
 logs
 *.log
@@ -71,7 +73,7 @@ typings/
 # dotenv environment variables file
 
 #WARNING NEVER EVER EXPOSE YOUR .ENV FILES !!!
-.env.test
+.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
