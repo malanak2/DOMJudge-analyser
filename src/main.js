@@ -28,5 +28,7 @@ const commands = find_commands(client)
 client.login(process.env.TOKEN)
 
 client.once(Discord.Events.ClientReady,(client)=>{
-    register_commands(client,commands)
+    register_commands(client,commands).then((data)=>{
+        //console.log(commands)
+    })
 })

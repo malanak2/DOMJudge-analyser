@@ -4,7 +4,7 @@ This is my template for most of my discord.js bots, feel free to use!
 ## Setup
 Copy the `.env.example` file to `.env`
 ```bash
-cp .env.example .env
+cp .env.test.example .env.test
 ```
 
 Open it with your favorite editor, Nano, Vim or Emacs.
